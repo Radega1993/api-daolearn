@@ -12,7 +12,7 @@ export class User {
     @Column()
     password: string;
 
-    @Column({ default: 'Student' }) // Roles: Student, Instructor
+    @Column({ default: 'Student' })
     role: string;
 
     @CreateDateColumn()
